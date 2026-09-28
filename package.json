@@ -1,0 +1,15 @@
+{
+  "name": "atelier-five-worlds",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "python3 tools/build.py",
+    "check": "node --check server.mjs",
+    "test": "node tools/test-server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
